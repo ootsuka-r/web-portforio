@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* RESET */
+
+body,header,footer,nav,section,div,ul,li,p,hi,h2{
+    margin : 0;
+    padding : 0;
+    
+}
+body{
+    background: url(images/bg_pattern.png),
+        url(images/bg_photo.jpg) top center no-repeat fixed,
+        #fbf9ed; 
+    color : #333333;}
+
+
+body{
+    line-height : 1;
+    font-family : sans-serif;
+}
+img{
+    vertical-align : top;
+}
+ul{
+    list-style : none;
+}    
+
+#wrapper {
+    overflow: hidden;
+    margin : 0 auto;
+    width : 960px;
+}
+
+/*html*/
+
+/*header*/
+
+header{
+    height: 300px;
+    text-align: center;
+}
+
+h1 img{
+    margin-top : 17px;
+}
+
+/*contents*/
+
+#contents {
+    float: right;
+    padding: 20px;
+    width: 670px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.9);
+    
+}
+.lead_photo{
+    float: left;
+    margin-right: 10px;
+}
+#contents h2{
+    margin-bottom: 4px;
+}
+
+#contants p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/*EVENT and ACCESS */
+
+#event,
+#access{
+    margin-top: 20px;
+    padding: 5px;
+    border: solid 1px #cccccc;
+    background: #ffffff;
+}
+
+#event_inner{
+    position: relative;
+    background: #f9dfd5 url(images/bg_pattern.png)
+        ;}
+
+
+#event h2,
+#access h2{
+    position: relative;
+    top: 3px;
+    left: -16px;
+}
+
+#lead{
+    overflow : hidden;
+}
+
+#event ul,
+#access ul{
+    padding: 12px 40px;
+} 
+
+#event li, 
+#access li{
+    margin-bottom : 12px;
+    font-size : 14px;
+}
+
+#event li:last-child,
+#access li:last-child{
+    margin-bottom : 0;
+}
+
+#event li a
+{
+    position : absolute;
+    left: 150px; 
+    color : #333333;
+    font-weight : bold;
+}
+#access li span {
+    position : absolute;
+    left: 150px; 
+    color : #333333;
+    font-weight : bold;
+}
+
+#access_inner{
+    position : relative;
+    height: 151px;
+    background: #d1eaf7 url(images/bg_pattern.png);
+}
+
+.access_map {float: right;}
+
+
+nav{padding : 20px;
+    width:160px;
+    background: rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+    text-align: center;    
+}
+
+nav li {
+    margin-bottom: 40px;
+}
+
+nav li:last-child{
+    margin-bottom: 0;
+}
+footer {
+    margin: 25px auto 0;
+    width: 960px;
+    height: 40px;
+    border-radius: 4px 4px 0 0;
+    background: #271a0b;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
