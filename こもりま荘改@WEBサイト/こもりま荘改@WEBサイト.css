@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+/*=======================================
+リセット
+=======================================*/
+
+html,body,h1,h2,h3,h4,ul,ol,dl,li,dt,dd,p,div,span,img,a,table,tr,th,td {
+  border : 0;
+  font-size : 100%;
+  font-weight : normal;
+  margin : 0;
+  padding : 0;
+}
+
+article,header,footer,aside,figure,figcaption,nav,section {
+  display : block;
+}
+
+a{text-decoration : none;}
+
+body {
+  line-height : 1;
+}
+
+ol,ul {
+  list-style : none;
+  list-style-type : none;
+}
+
+body{background-color : block;}
+header{background-color : block;
+	width: auto 0 ;}
+
+
+body{background-color :#F4F4F4;
+     font-family :"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo" , "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"}
+
+/*===================================*/
+.header-wrapper{width :100%;
+                heigth :400px;
+                background-color :#1E2353;
+	            border-bottom :10px solid #A6E2A5;
+               position :fixed;
+		z-index :1000;}
+
+header{width :1120px;
+      margin :0 auto;}
+
+.title{width :1120px;
+       text-align :center;
+       padding-top:20px ;
+       padding-bottom :20px;}
+
+.title img{text-align :center;}
+
+.nav{width :1120px;
+     height :60px;
+     margin :0 auto;}
+
+.menu{width :1120px;
+	  height :60px;
+	text-align :center;}
+
+.menu ul{width :1120px;
+	height :60px;
+	margin-left :auto;
+     margin-right :auto;}
+
+.menu li{float :left;
+          border-left :1px solid #fff;
+	border-right :1px solid #fff;
+	margin-top :7px;
+     margin-left :-1px;}
+
+
+.menu li a {color :#fff;
+           display :block;
+           width :100px;
+	       margin :0 auto;
+           font-size :9px;
+	        padding :18px 61.5px;
+           position :relative;
+           letter-spacing: 2px;
+           clear :both;}
+
+.menu li a:hover{ border-bottom :7px solid #F9E904;
+                 opacity :0.8;}
+
+
+/*===
+header{width :100%;
+       height :80px;
+        margin :0px;
+        padding :0px;
+        background-color :#1E2353;
+		
+        border-bottom :10px solid #47F0FF;
+		position :fixed;
+		z-index :1000;}
+
+.header-wrapper{width :100%;
+               height :0px;
+	           display :block;
+               margin :0 auto;}
+
+.logo{margin-top :15px;
+     margin-left :0px;}
+
+
+.title{float :left;
+       margin-left :60px;}
+
+/*===================================*/
+/*===
+.menu{height :60px;
+      margin :0 auto;
+      background-color :;
+     position :relative;
+     overflow: hidden;
+     margin-left :60px;
+	margin-right :60px;
+     float :right;}
+
+.menu li{float :left;
+    border-left :1px solid #fff;
+	border-right :1px solid #fff;
+	margin-top :15px;
+     margin-left :-1px;
+  }
+
+.menu li a {color :#fff;
+           display :block;
+           text-align :center;
+           font-size :7px;
+	        padding :15px 15px;
+	        padding-bottom :18px;
+	        width :100px;
+           position :relative;
+           letter-spacing: 2px;}
+
+.top{border-left :1px solid #fff;}
+
+.menu li a:hover{opacity :0.9;
+                 border-bottom :7px solid #F9E904;}
+
+====*/
+/*===================================*/
+
+.top-image-wrapper{clear :left;
+	       width :100%;
+	       margin :0px 0;
+           background-color :#DAEFF8;
+           }
+
+.top-image{width : 100%;
+           height :1000px;
+	       padding-top :500px;
+           background-image :url("mein-image.png");
+	       margin :0 auto;
+	       background-size :cover;
+	       background-repeat: no-repeat;
+           background-position: center center;
+	      }
+
+.text-box p{padding-top :60px;
+	        font-size :15px;
+            color :#fff;}
+
+
+
+.midasi{margin-top :600px;
+       margin-left :200px;}
+
+/*===================================*/
+
+.propaty-wrapper{width :100%;
+                 height :500px;
+				 background-color :#F6D08B;
+				 background-image :url("image-picture.png");
+				 background-size :cover;
+	             background-position: center center;}
+
+.propaty{width :1120px;
+         height :500px;
+		 margin :0 auto;}
+
+
+.propaty-text{padding-top :150px;
+              text-align :center;}
+
+.propaty-text img{}
+
+.propaty-text p{line-height :60px;
+                 margin-top :30px;
+				 font-size :15px;
+                 color :#fff;}
+
+
+
+
+
+
+
+.admin{float :right;
+       width :557px;
+      height :360px;}
+
+.admin h2{padding-bottom :15px;
+	     padding-top :38px;
+	     padding-left :225px;
+         font-size :22px;}
+
+.admin p{display :block;
+	       width :400px;
+           padding : 20px 0px;
+           padding-left :90px;
+	       line-height :23px;
+           color :#000;
+           font-size :11px;}
+
+/*===========こんな人に入って欲しい========================*/
+
+.target{width :100%;
+	    background-color :#DAEFF8;
+        }
+
+.haixtutehosii{padding:70px 0;
+	           margin-top: -280px;
+               text-align :center;}
+
+.contents-wrapper{width :1120px;
+                 height :230px;
+                  margin :0 auto;}
+
+.contents{float :left;
+          width : 300px;
+
+	      margin :0 auto;
+          margin-right :110px;
+          margin-top :20px;}
+
+.contents-end{float :right;
+          width : 300px;
+
+	      margin :0 auto;
+          margin-top :20px;}
+
+.contents-end h2{text-align :center;
+                 background-color :#fff;
+	             padding:10px 0;
+            font-size :15px;
+            font-weight :bold;
+            color :#142950;
+ }
+
+.contents h2{text-align :center;
+            background-color :#fff;
+            padding:10px 0;
+            font-size :15px;
+            font-weight :bold;
+            }
+
+.contents-item{}
+
+.butugiri{background-image :url("butugiri.png");
+	      width :100%;
+	      height :232px;
+         position :relative;
+	     z-index :50;
+         top :100px;}
+
+.t-image{width :1120px;
+         height:500px;
+	      margin :0 auto;
+         background-image :url("来てほしい背景.png");
+         background-position :0 0;
+	background-repeat :no-repeat;}
+
+.t-image2{width :1120px;
+         height:200px;
+	      margin :0 auto;
+	     margin-top :100px;
+	     margin-bottom :-260px;
+         background-image :url("来てほしい背景2.png");
+         background-position :0 0;
+	background-repeat :no-repeat;
+    position :relative;
+	     z-index :51;}
+
+/*==============こもりま荘のここがすごい=====================*/
+
+#container-wrapper{width :100%;
+           margin :0 auto;
+           background-color :#DAEFF8;
+          position :relative ;
+	      padding-top :10px;
+           text-align :center;}
+
+.sugoihaikei{width :100%;
+             height :300px;
+	margin-top :-25px;
+	background-image :url("すごい背景.png");
+	background-position :center 0;
+	background-repeat :no-repeat;}
+
+.container{width :1120px;
+		   margin :0 auto;
+           position :relative;
+           top :0px;}
+		   
+.container-title{text-align :center;}
+
+.container-title img{margin-top :-250px;
+	                 margin-bottom :200px;
+                      margin-left :10px;}
+
+.container-item{margin-bottom :150px;}
+
+.textback{float :left;}
+
+.right{float :right;}
+
+
+
+
+
+
+
+/*=================入居者の声==================*/
+
+#main-wrapper{width :100%;
+	      background-color :#2C63D7;
+	      margin-top :-50px;}
+
+.heikei{width :100%;
+	background-image :url("声背景.png");
+    background-repeat :no-repeat;
+	background-position :center 0;
+	position :relative;
+	top :0;
+}
+
+.menber{width :100%;
+	   display :block;
+       text-align :center;
+       padding-top:200px}
+
+.menber img{margin-top:120px;}
+
+.menber p{font-size :15px;
+	       color :#fff;
+	       padding-top :50px;
+	       line-height :35px;
+	       letter-spacing :10px;
+          }
+
+main{width :1120px;
+	height : 1200px;
+	margin :0 auto;
+	background-image :url(web背景＠素材.png);
+    display :block;
+	background-size :cover;
+	margin-top :0px;}
+
+.room{padding-top:120px;
+      width :1120px;
+      margin :0 auto;}
+
+.line{width :1120px;
+      height : 200px;
+      margin :0 auto; 
+	  margin-left: 100px;
+	  margin-top :105px;
+      border-radius :10px;}
+
+
+.hito{width :150px;
+	  text-align :center;
+      float :left;
+       padding-left:120px;
+       padding-top: 40px;}
+
+.hito:hover{opacity :0.5;}
+
+.hito img{border-radius : 0 0 7px 7px;
+           background-color :#fff;}
+
+
+.hito span{clear :both;
+        display :block;
+	text-align :center;
+	padding: 10px;
+    background-color :#4E58A6;
+    color :#FFFFFF;
+    border-radius :7px 7px 0px 0px;}
+
+.matinami{width :100%;
+          height :500px;
+          background-image: url("声背景２.png");
+          background-size :cover;
+	             background-position: center center;
+          margin-top :-500px;}	
+
+.container-bottom{background-image :url("kugiri.png");
+	      width :100%;
+	      height :231px;
+         position :relative;
+         margin :0px;
+         bottom :0px;
+}
+	
+/*===========管理人の日記========================*/
+
+#diary-wrapper{width :100%;
+              background-color :#2C63D7;}
+
+.diary{width :1120px;
+       margin :0 auto;
+	padding :150px 0;}
+
+.diary-title{font-size :20px;
+             text-align :center;
+             padding-bottom :50px;}
+
+.ditails{margin-left :px;
+         border-bottom :1px solid #D3D3D3;
+           padding :20px 0;}
+
+.ditails p{padding-left :200px;
+           font-size :16px;
+           color :#fff;
+           font-size :14px;}
+
+.ditails span{color :#D3D3D3;
+              padding-right :150px;
+              font-size :12px;}
+
+/*===================================*/
+.message-wrapper{width :100%;
+               background-color :#DAEFF8;}
+
+.message{width :1120px;
+	   height :200px;
+       margin :0 auto;
+	   padding-top :80px;
+	   padding-bottom :80px;
+       }
+
+.message h2{padding-bottom :40px;
+             text-align :center;}
+
+.message p{font-size :14px;
+          line-height :40px;}
+
+/*===================================*/
+
+footer{clear :left;
+	    clear :right;
+	width :100%;
+        height :200px;
+        background-color :#1E2353;
+       margin-top :0px;}
+
+.footer-details{display :block;
+                text-align :center;
+                padding-top :25px;}
+
+.footer-details p{color :#fff;
+                  font-size :11px;}
+
+.sns-btn li{display :inline-block;
+            padding :20px 15px;
+}
+
+.place{padding-top :20px;}
+
+.place p{padding-bottom :5px;}
+
+.end{padding-top :10px;}

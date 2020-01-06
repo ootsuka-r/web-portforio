@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+/*=======================================
+リセット
+=======================================*/
+
+html,body,h1,h2,h3,h4,ul,ol,dl,li,dt,dd,p,div,span,img,a,table,tr,th,td {
+  border : 0;
+  font-size : 100%;
+  font-weight : normal;
+  margin : 0;
+  padding : 0;
+}
+
+article,header,footer,aside,figure,figcaption,nav,section {
+  display : block;
+}
+
+a{text-decoration : none;}
+
+body {
+  line-height : 1;
+}
+
+ol,ul {
+  list-style : none;
+  list-style-type : none;
+}
+
+body{background-color : block;}
+header{background-color : block;
+	width: auto 0 ;}
+
+/*===================================*/
+main{width :1120px;
+     margin :0 auto;}
+/*===================================*/
+
+header{width :100%;
+       height :60px;
+        background-color :#1E2353;
+        border-bottom :10px solid #47F0FF;}
+
+.header-wrapper{width :100%;
+	           display :block;
+               margin :0 auto;}
+
+.logo{margin-top :5px;}
+
+body{background-color :#F4F4F4;
+     font-family :"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo" , "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"}
+
+.title{float :left;
+       margin-left :60px;}
+
+
+.menu{height :60px;
+      margin :0 auto;
+      background-color :#1E2353;
+     position :relative;
+     overflow: hidden;
+     margin-left :60px;
+	margin-right :60px;
+     float :right;}
+
+.menu li{float :left;
+    border-left :1px solid #fff;
+	border-right :1px solid #fff;
+	margin-top :10px;
+     margin-left :-1px;
+  }
+
+.menu li a {color :#fff;
+           display :block;
+           text-align :center;
+           font-size :7px;
+	        padding :15px 15px;
+	        padding-bottom :18px;
+	        width :100px;
+           position :relative;
+           letter-spacing: 2px;}
+
+.top{border-left :1px solid #fff;}
+
+.menu li a:hover{opacity :0.9;
+                 border-bottom :7px solid #F9E904;}
+
+.interview h2{text-align :center;
+              padding: 70px 0px 40px 0;
+	          margin-bottom :-17px;
+	          font-size :22px;
+	          letter-spacing : 7px;
+              border-bottom :1px solid #000;}
+
+.interview-up{width :1120px;
+             margin-top :40px;}
+
+.text-up h3{font-size :17px;
+            font-weight :bold;
+            padding-top :45px;
+            padding-left :30px;
+            text-align :center;}
+
+.text-up p{
+	       margin-left :10px;
+	       margin-top :50px;
+	       font-size :14px;
+           line-height :30px;
+           margin-bottom :80px;}
+
+
+.image-up{
+          background-color :#000;}
+
+.interview-middle{clear :left;
+	              width :1120px;
+                  
+                  padding-top :100px;}
+
+.text-middle{
+             width :1120px;}
+
+.text-middle h3{
+	        font-size :17px;
+            font-weight :bold;
+            padding-top :70px;
+            padding-left :0px;
+            text-align :center;}
+
+.text-middle p{padding :50px 0px 0 20px;
+	        margin-right :0px;
+           line-height :30px;
+           font-size :14px;
+	       margin-bottom :80px;
+           clear :right;}
+
+.image-middle{
+          width :1120px;
+          height :1000px;
+	      margin-left :10px;
+          background-color :#ADADAD;}
+
+.image-middle span{
+	               display :block;
+                   text-align :center;
+	               padding-top :50px;
+                   font-size :13px;}
+
+
+.text-under{
+             width :1120px;}
+
+.text-under img{margin-bottom :50px;}
+
+.text-under h3{font-size :17px;
+            font-weight :bold;
+            padding-top :70px;
+            padding-left :55px;
+            text-align :center;}
+
+.interview-under p{padding :50px 0px 0 20px;
+           line-height :30px;
+           font-size :14px;}
+
+.text-end{}
+
+.text-end h3{font-size :17px;
+             font-weight :bold;
+             margin-top :80px;
+              text-align :center;}
+
+.access-left{clear :left;
+	          clear :right;
+	float :left;
+	margin-top :120px;}
+
+
+.access-right{clear :left;
+	          clear :right;
+	float :right;
+	margin-top :120px;
+	}
+
+.access-left a{color :#000;
+                font-size :16px;
+                letter-spacing :5px;}
+
+.access-right a{color :#000;
+                font-size :16px;
+                letter-spacing :5px;}
+
+
+footer{clear :left;
+	          clear :right;
+	width :100%;
+        height :200px;
+        background-color :#1E2353;
+       margin-top :40px;}
+
+.footer-details{display :block;
+                text-align :center;
+                padding-top :25px;}
+
+.footer-details p{color :#fff;
+                  font-size :11px;}
+
+.sns-btn li{display :inline-block;
+            padding :20px 15px;
+}
+
+.place{padding-top :20px;}
+
+.place p{padding-bottom :5px;}
+
+.end{padding-top :10px;}
